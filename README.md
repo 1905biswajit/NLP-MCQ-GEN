@@ -90,6 +90,9 @@ To get started with the MCQ Questions and Answers Generator, follow these steps:
 
 Contributions are welcome! If you have any suggestions for improvements or new features, feel free to create an issue or submit a pull request. Please ensure your contributions align with the project's goals and adhere to the coding standards.
 
+## Contact
+
+For any questions or inquiries, please contact(mail to : karbiswajit396@gmail.com)
 
 ## Acknowledgements
 
