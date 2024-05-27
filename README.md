@@ -25,27 +25,32 @@ The MCQ Questions and Answers Generator is an advanced tool designed to automate
 ## Project Structure
 
 ```
-MCQ-Generator/
-│
-├── data/
-│   ├── sample_texts/
-│   │   └── sample1.txt
-│   │   └── sample2.txt
-│   └── generated_mcqs/
-│       └── sample_mcqs.txt
-│
-├── src/
-│   ├── keyword_extraction.py
-│   ├── sentence_tokenization.py
-│   ├── sense_disambiguation.py
-│   ├── distractor_generation.py
-│   └── mcq_generation.py
-│
-├── app.py
-│
-├── requirements.txt
-│
-└── README.md
+graph TD
+  A[User Interaction] -->|Input Text| B{Processing Steps}
+  B -->|Keyword Extraction| C[Keyword Extractor]
+  B -->|Sentence Tokenization| D[Sentence Tokenizer]
+  B -->|Sense Disambiguation| E[Sense Disambiguator]
+  B -->|Distractor Generation| F[Distractor Generator]
+  B -->|MCQ Generation| G[MCQ Generator]
+
+  style A fill:#9ac9fb,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5;
+  style B fill:#9ac9fb,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5;
+  style C fill:#b0e57c,stroke:#333,stroke-width:2px;
+  style D fill:#b0e57c,stroke:#333,stroke-width:2px;
+  style E fill:#b0e57c,stroke:#333,stroke-width:2px;
+  style F fill:#b0e57c,stroke:#333,stroke-width:2px;
+  style G fill:#b0e57c,stroke:#333,stroke-width:2px;
+  style H fill:#f9f9f9,stroke:#333,stroke-width:2px;
+  style I fill:#9ac9fb,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5;
+
+  C --> H[Output]
+  D --> H[Output]
+  E --> H[Output]
+  F --> H[Output]
+  G --> H[Output]
+
+  H --> I[Display Generated MCQs]
+
 ```
 
 ## Installation
