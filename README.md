@@ -24,7 +24,7 @@ The MCQ Questions and Answers Generator is an advanced tool designed to automate
 
 ## Project Structure
 
-```
+```mermaid
 graph TD
   A[User Interaction] -->|Input Text| B{Processing Steps}
   B -->|Keyword Extraction| C[Keyword Extractor]
