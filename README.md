@@ -6,7 +6,7 @@ The MCQ Questions and Answers Generator is an advanced tool designed to automate
 
 ## Features
 
-- **Automated Keyword Extraction**: Uses Python Keyphrase Extraction (PKE) to identify the most important keywords from the text.
+- **Automated Keyword Extraction**: Uses RAKE  to identify the most important keywords from the text.
 - **Sentence Tokenization**: Splits the text into sentences and selects those suitable for question generation.
 - **Sense Disambiguation**: Determines the correct sense of each keyword to ensure contextual accuracy.
 - **Distractor Generation**: Utilizes WordNet and ConceptNet to create plausible distractors that match the sense of the keywords.
@@ -96,7 +96,7 @@ For any questions or inquiries, please contact(mail to : karbiswajit396@gmail.co
 
 ## Acknowledgements
 
-We would like to thank the developers of the libraries and tools that made this project possible, including Python, Streamlit, WordNet, ConceptNet, and the Python Keyphrase Extraction (PKE) library.
+We would like to thank the developers of the libraries and tools that made this project possible, including Python, Streamlit, WordNet, ConceptNet, and the RAKE library.
 
 ---
 
